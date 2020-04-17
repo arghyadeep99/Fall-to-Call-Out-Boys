@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dimitris.falldetector.ui.SetActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="100px"
+            android:textAlignment="center"
+            android:text="@string/set_title"
+            android:fontFamily="sans-serif"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:text="@string/set_info"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/et_country_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="number"
+                android:hint="@string/set_code_hint"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColorHint="@color/colorSecondary"/>
+
+            <EditText
+                android:id="@+id/et_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:hint="@string/set_phone_hint"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColorHint="@color/colorSecondary"/>
+
+        </LinearLayout>
+
+        <Button
+            android:theme="@style/AppTheme.Gray"
+            android:id="@+id/bttn_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/set_btn_done"
+            android:padding="30px"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
