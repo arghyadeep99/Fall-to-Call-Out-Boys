@@ -48,7 +48,7 @@ The use case of this application can also be extended to workplaces where worker
 <img src="./screenshots/ss4.png"height=700px/>
 <br>
 <h4 align="center">Call being made to emergency contact</h4>
-<img src="./screenshots/ss5.png"height=700px/>
+<img src="./screenshots/ss5.jpeg"height=700px/>
 <br>
 <br>
 </div>
