@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">FallDetector</string>
+    <string name="app_name">Fall Detector</string>
     <string name="main_title">Fall Detector</string>
     <string name="main_description">The app helps you in a fall emergency situation by calling a person you specify</string>
     <string name="main_btn_choose">Choose contact</string>
     <string name="main_btn_start">Start</string>
-    <string name="main_btn_history">History</string>
-    <string name="start_title">Monitor events</string>
+    <string name="main_btn_history">HISTORY</string>
+    <string name="start_title">MONITOR EVENTS</string>
     <string name="set_title">Emergency contact</string>
-    <string name="set_info">Please, insert the phone number you would like to call in a fall emergency</string>
-    <string name="set_code_hint">0030</string>
-    <string name="set_phone_hint">69********</string>
+    <string name="set_info">Please insert your emergency contact to call in case of a fall</string>
+    <string name="set_code_hint">+91</string>
+    <string name="set_phone_hint">Insert 10-digit phone number</string>
     <string name="set_btn_done">Done</string>
     <string name="start_clear">Clear</string>
 </resources>

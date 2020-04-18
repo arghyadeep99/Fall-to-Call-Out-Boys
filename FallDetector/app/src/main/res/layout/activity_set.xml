@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dimitris.falldetector.ui.SetActivity">
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_width="368dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+    tools:context="com.example.dimitris.falldetector.ui.SetActivity"
+    android:background="@drawable/bezels">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="100px"
             android:textAlignment="center"
-            android:text="@string/set_title"
+            android:text="EMERGENCY CONTACT"
+            android:layout_marginTop="50dp"
             android:fontFamily="sans-serif"
             android:textSize="25dp"
             android:textStyle="bold"
@@ -30,6 +25,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:padding="20dp"
+            android:layout_marginTop="140dp"
             android:text="@string/set_info"
             android:fontFamily="sans-serif"
             android:textSize="18dp"
@@ -40,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="30sp"
+            android:layout_marginTop="275dp"
             android:layout_gravity="center">
 
             <EditText
@@ -57,15 +53,15 @@
 
             <EditText
                 android:id="@+id/et_phone_number"
-                android:layout_width="wrap_content"
+                android:layout_width="263dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="phone"
-                android:hint="@string/set_phone_hint"
                 android:fontFamily="sans-serif"
+                android:hint="@string/set_phone_hint"
+                android:inputType="phone"
+                android:textColorHint="@color/colorSecondary"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColorHint="@color/colorSecondary"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -74,12 +70,10 @@
             android:id="@+id/bttn_done"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="600dp"
+            android:layout_centerHorizontal="true"
             android:text="@string/set_btn_done"
             android:padding="30px"
             android:textColor="@color/white"/>
 
-
-    </LinearLayout>
-
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
