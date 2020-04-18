@@ -29,7 +29,6 @@ public class StartActivity extends AppCompatActivity{
     public static final String TAG = "StartActivity";
 
     private SwitchCompat mSwitchCompat;
-//    private ToggleButton mToggle; // TODO: remove
 
     private SensorManager mSensorManager;
     private Sensor mSensor;
@@ -97,7 +96,7 @@ public class StartActivity extends AppCompatActivity{
                         callIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(callIntent);
                     } else {
-                        Toast.makeText(getApplicationContext(), "Please, set a contact to call", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Please set a contact to call", Toast.LENGTH_SHORT).show();
                     }
 
                     String newHistory = DateFormat.getDateTimeInstance().format(new Date()) +"\n";
